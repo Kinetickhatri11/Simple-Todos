@@ -1,0 +1,19 @@
+/* Write your CSS here */
+.todo-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.todo {
+  font-weight: bold;
+}
+.delete-button {
+  background-color: transparent;
+  border: 2px solid #ff0b37;
+  color: #ff0b37;
+  border-radius: 8px;
+  width: 100px;
+  height: 35px;
+  margin-left: 30px;
+}
